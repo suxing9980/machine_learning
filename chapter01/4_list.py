@@ -5,6 +5,8 @@
 #@Author  : Little柯南
 #@File    : 4_list.py
 
+# 与Python字符串不一样的是，列表中的元素是可以改变的
+# python中的函数还可以接收可变长参数，比如以 "*" 开头的的参数名，会将所有的参数收集到一个元组上
 list = ['abcd', 786, 2.23, 'runoob', 70.2]
 tinylist = [123, 'runoob']
 
