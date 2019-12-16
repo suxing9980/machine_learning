@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 # @Time    : 2019/11/22 14:01
-# @Author  : Suxing
+# @Author  : Little柯南
 # @File    : rename.py
 
 import os, os.path, time
