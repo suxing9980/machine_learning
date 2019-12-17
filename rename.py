@@ -31,6 +31,7 @@ def rename(file, keyword):
     items = os.listdir(file)
     for name in items:
         print(name)
+        return None
 
 if __name__ == "__main__":
     rename('F:\BaiduNetdiskDownload\GO基础进阶之网络编程篇', '【瑞客论坛 www.ruike1.com】')
