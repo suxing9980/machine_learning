@@ -18,7 +18,8 @@ print('host:', host)
 # 设置端口号
 port = 9999
 # 连接服务，指定主机和端口(host, port)必须是元组,like bind
-s.connect((host, port))
+addr = (host, port)
+s.connect(addr)
 
 # 接收小于1024字节的数据
 msg = s.recv(1024)

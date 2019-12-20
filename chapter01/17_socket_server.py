@@ -17,7 +17,8 @@ print('hostname', host)
 port = 9999
 
 # 绑定端口号(host, port)必须是元组
-server_socket.bind((host, port))
+addr = (host, port)
+server_socket.bind(addr)
 
 # 设置最大连接数，超过后排队
 server_socket.listen(5)
