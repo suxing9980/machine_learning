@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 # @Time    : 2019/11/21 14:11
-# @Author  : Suxing
+# @Author  : Little柯南
 # @File    : day02.py
 
 from sklearn.datasets import load_iris, fetch_20newsgroups, load_boston
