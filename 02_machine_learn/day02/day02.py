@@ -52,7 +52,7 @@ def knncls():
     :return: None
     '''
     # 读取数据 无数据文件，找时间补起来
-    # data = pd.read_csv('')
+    data = pd.read_csv('./train.csv')
     return None
 
 if __name__ == "__main__":
