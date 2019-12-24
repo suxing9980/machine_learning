@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 # @Time    : 2019/11/18 17:10
-# @Author  : Suxing
+# @Author  : Little柯南
 # @File    : day01.py
 
 from sklearn.feature_extraction import DictVectorizer
