@@ -19,12 +19,13 @@ def dictvec():
     :return: None
     '''
     # 如果不用toarray()则需要开启sparse=False
-    dict = DictVectorizer()
+    dict = DictVectorizer(sparse=False)
     data = dict.fit_transform([{'city': '北京','temperature': 100}, {'city': '上海','temperature':60}, {'city': '深圳','temperature':30}])
     print(dict.get_feature_names())
     # 将numpy数组或者scipy.parse矩阵转换成映射列表
+    print(data)
     print(dict.inverse_transform(data))
-    print(data.toarray())
+
     return None
 
 def countvec():
@@ -134,7 +135,7 @@ def pca():
 
 
 if (__name__ == "__main__"):
-    # dictvec()
+    dictvec()
     # countvec()
     # hanzivec()
     # tfidfvec()
@@ -142,4 +143,4 @@ if (__name__ == "__main__"):
     # stand()
     # im()
     # var()
-    pca()
+    # pca()
