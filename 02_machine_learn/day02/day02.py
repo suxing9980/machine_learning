@@ -158,6 +158,7 @@ def decision():
     print(x)
     # 缺失值处理
     x['age'].fillna(x['age'].mean(), inplace=True)
+    print(r"x['age'] type",type(x['age']))
 
     # 分割数据集到训练集合测试集
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25)

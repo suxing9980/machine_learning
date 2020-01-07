@@ -144,5 +144,5 @@ if (__name__ == "__main__"):
     # mm()
     # stand()
     # im()
-    # var()
-    pca()
+    var()
+    # pca()
